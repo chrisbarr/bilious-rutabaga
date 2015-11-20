@@ -1,9 +1,9 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
     name = 'bucket_lister',
-    packages = ['bucket_lister'],
-    version = '0.1.0',
+    packages = find_packages(),
+    version = '0.2.0',
     description = 'List S3 buckets for an account',
     author = 'Chris Barr',
     author_email = 'chris.barr@ntlworld.com',
